@@ -57,7 +57,7 @@ to interpret humans, qr-codes, text, hand and face parts.
 ## 🛠 Setup
 
 ```
-## Python
+## iOS
 git clone https://github.com/genry86/Vision-Framework-demo
 cd genry86/Vision-Framework-demo
 
