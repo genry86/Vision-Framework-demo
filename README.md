@@ -58,21 +58,9 @@ to interpret humans, qr-codes, text, hand and face parts.
 
 ```
 ## Python
-git clone https://github.com/genry86/Classification_Face_Parts.git
-cd Classification_Face_Parts
-pip3 install -r requirements.txt
+git clone https://github.com/genry86/Vision-Framework-demo
+cd genry86/Vision-Framework-demo
 
-python data_download.py # to download CalebA dataset from kagglehub
-python dataset_prepare.py # clean-up csv file and copy/split all photos to tran/val/test folders.
-
-Use "pt" folder to work with pytorch. "train.py"
-User "tf" to work with tensorflow. "train.py"
-
-"test_models.py" file is used to show visual results of both generated models.
-"convert_to_coreml.py" is used to convert both models to CoreML format, in order to be used on iOS phones.
-
- ## iOS
-cd iOS
-pod install
-run ImageClassification.xcworkspace
-# iOS will use real-time front camera to get image of your face to detect landmarks. Result photos will go to through trained models(Pytorch and Tensorflow). Results will be showed on the screen. 
+Select any of the sub-folder apps. 
+Setup provision profile
+build and run app  
